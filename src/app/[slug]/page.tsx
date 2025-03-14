@@ -22,8 +22,9 @@ const RestaurantPage = async ({ params }: RestaurantePageProps) => {
         <Image
           src={restaurant.avatarImageUrl}
           alt={restaurant.name}
-          width={82}
-          height={82}
+          width={92}
+          height={92}
+          className="rounded-2xl"
         />
         <h2 className="font semibold">{restaurant.name}</h2>
       </div>
